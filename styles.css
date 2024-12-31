@@ -61,7 +61,7 @@
     padding: 200px 220px 0px 220px;
 }
 
-.slides .under_constuction {
+.slides .under_construction {
     position: absolute;
     top: 0;
     right: 18px;
@@ -93,8 +93,11 @@
     color: white;
 }
 
-
-
+.container {
+    display: flex;
+    padding: 200px;
+    font-size: 28px;
+}
 
 @keyframes fade {
   from {opacity: .4}
