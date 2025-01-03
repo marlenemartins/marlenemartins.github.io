@@ -1,7 +1,9 @@
 * {
     font-family: "Neue Haas Unica W1G";
-    margin: 0;
     overflow: hidden;
+}
+body {
+    margin: 0;
 }
 
 /* Slideshow container */
@@ -50,7 +52,7 @@
 }
 
 .slides .title {
-    font-size: 10pt;
+    font-size: 1vw;
     padding: 12px 12px;
     position: absolute;
     top: 0;
@@ -74,7 +76,7 @@
     position: fixed;
     bottom: 0;
     left: 460px;
-    font-size: 16pt;
+    font-size: 1.4vw;
 }
 
 .slides .address {
@@ -82,7 +84,19 @@
     position: fixed;
     bottom: 0;
     left: 15px;
-    font-size: 16pt;
+    font-size: 1.4vw;
+}
+
+.slides .address p {
+    margin: 0
+}
+
+.slides .contacts p {
+    margin: 0
+}
+
+.slides .under_construction h1 {
+    margin: 0
 }
 
 .blackSlide{
@@ -95,8 +109,8 @@
 
 .container {
     display: flex;
-    padding: 200px;
-    font-size: 28px;
+    padding: 150px;
+    font-size: 1.3vw;
 }
 
 @keyframes fade {
