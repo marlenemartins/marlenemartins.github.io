@@ -53,14 +53,13 @@ body {
 
 .slides .title {
     font-size: 1vw;
-    padding: 12px 12px;
     position: absolute;
     top: 0;
     left: 15px;
 }
 .slides .text {
     font-size: 16pt;
-    padding: 200px 220px 0px 220px;
+    padding: 200px 220px 12px 220px;
 }
 
 .slides .under_construction {
@@ -71,9 +70,17 @@ body {
     padding: 12px 12px;
 }
 
+.bottom-container {
+  position: fixed;
+  bottom: 0;
+  display: flex;
+}
+
+
 .slides .contacts {
     padding: 12px 12px;
-    position: fixed;
+    align-self: flex-end;
+    display: flex;
     bottom: 0;
     left: 460px;
     font-size: 1.4vw;
@@ -81,7 +88,8 @@ body {
 
 .slides .address {
     padding: 12px 12px;
-    position: fixed;
+    align-self: flex-end;
+    display: flex;
     bottom: 0;
     left: 15px;
     font-size: 1.4vw;
