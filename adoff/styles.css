@@ -1,11 +1,15 @@
 * {
-    font-family: "Neue Haas Unica W1G";
+    font-family: "NeueHaasUnicaPro-Regular";
     overflow: hidden;
 }
 body {
     margin: 0;
 }
 
+@font-face {
+  font-family: "NeueHaasUnicaPro-Regular";
+  src: url(fonts/NeueHaasUnicaPro-Regular.otf);
+}
 /* Slideshow container */
 .main {
   position: relative;
@@ -52,7 +56,7 @@ body {
 }
 
 .slides .title {
-    font-size: 1vw;
+    font-size: 1.4vw;
     position: absolute;
     top: 0;
     left: 15px;
@@ -66,8 +70,13 @@ body {
     position: absolute;
     top: 0;
     right: 18px;
-    font-size: 9pt;
-    padding: 12px 12px;
+    font-size: 1.4vw;
+    margin-top: 20px;
+}
+
+.slides .under_construction p {
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .bottom-container {
@@ -95,15 +104,23 @@ body {
     font-size: 1.4vw;
 }
 
+.slides .socials {
+  padding: 12px 12px;
+  display: flex;
+  bottom: 0;
+  left: 15px;
+  font-size: 1.4vw;
+}
+
+.slides .socials a {
+  text-decoration: none;
+}
+
 .slides .address p {
     margin: 0
 }
 
 .slides .contacts p {
-    margin: 0
-}
-
-.slides .under_construction h1 {
     margin: 0
 }
 
@@ -113,6 +130,14 @@ body {
 
 .whiteSlide {
     color: white;
+}
+
+.whiteSlide a {
+  color: white;
+}
+
+.blackSlide a { 
+  color: black;
 }
 
 .container {
