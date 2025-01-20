@@ -72,6 +72,16 @@ body {
   .slides .title {
     margin-top: 10px;
   }
+  .slides .contacts {
+    font-size: 2.5vw;
+  }
+
+  .slides .address {
+    font-size: 2.5vw;
+  }
+  .slides .socials {
+    font-size: 2.5vw;
+  }
 
 }
 
