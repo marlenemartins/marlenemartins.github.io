@@ -61,6 +61,19 @@ body {
     top: 0;
     left: 15px;
 }
+
+@media screen and (max-width: 500px) {
+  .slides .title {
+    font-size: 4vw;
+  }
+  .slides .under_construction {
+    font-size: 4vw;
+  }
+  .slides .contacts {
+    font-size: 4vw;
+  }
+
+}
 .slides .text {
     font-size: 16pt;
     padding: 200px 220px 12px 220px;
