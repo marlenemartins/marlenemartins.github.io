@@ -170,6 +170,11 @@ body {
     font-size: 1.3vw;
 }
 
+.arrow {
+  height: 50px;
+}
+
+
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}

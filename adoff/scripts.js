@@ -25,4 +25,16 @@ function showSlides(n) {
   }
 
   slides[slideIndex - 1].style.display = "block";
+
+  if (slides[slideIndex - 1].className.match("whiteSlide")) {
+    let arrowLeftElement = document.getElementById("arrow_left");
+    arrowLeftElement.src = "images/desktop/arrow_left_white.png";
+    let arrowRightElement = document.getElementById("arrow_right");
+    arrowRightElement.src = "images/desktop/arrow_right_white.png";
+  } else {
+    let arrowLeftElement = document.getElementById("arrow_left");
+    arrowLeftElement.src = "images/desktop/arrow_left_black.png";
+    let arrowRightElement = document.getElementById("arrow_right");
+    arrowRightElement.src = "images/desktop/arrow_right_black.png";
+  }
 }
