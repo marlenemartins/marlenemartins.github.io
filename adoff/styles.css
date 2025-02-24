@@ -166,14 +166,31 @@ body {
   }
   .slides .contacts {
     font-size:  1vw;
+    padding: 0;
   }
 
   .slides .address {
     font-size: 1vw;
+    padding: 0;
+    margin: 0;
   }
+
+  .bottom-container ol {
+    padding-inline-start: 20px;
+  }
+
   .slides .socials {
     font-size: 1vw;
-    display: block;
+    padding: 0;
+  }
+
+  .slides .socials li {
+    display: inline-block;
+  }
+
+  .slides .socials li {
+    display: inline-block;
+    padding-right: 10px;
   }
 
   .slides .text {
