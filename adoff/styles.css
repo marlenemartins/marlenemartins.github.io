@@ -131,10 +131,14 @@ body {
   color: black;
 }
 
-.container {
+.container_desktop {
     display: flex;
     padding: 150px;
     font-size: 1.3vw;
+}
+
+.container_mobile {
+  display: none;
 }
 
 .arrow {
@@ -165,12 +169,10 @@ body {
     margin-top: 10px;
   }
   .slides .contacts {
-    font-size:  1vw;
     padding: 0;
   }
 
   .slides .address {
-    font-size: 1vw;
     padding: 0;
     margin: 0;
   }
@@ -180,7 +182,6 @@ body {
   }
 
   .slides .socials {
-    font-size: 1vw;
     padding: 0;
   }
 
@@ -201,10 +202,18 @@ body {
   .slides .text p {
     width: 280px;
   }
-
-  .container {
-    padding: 10px;
+  .container_desktop {
+    display: none;
   }
 
-  
+  .container_mobile {
+    padding: 10px;
+    display: flex;
+    font-size: 2.5vw;
+    padding-top: 60px;
+  }
+  .container_mobile li {
+    font-size: 2.4vw;
+  }
+
 }
