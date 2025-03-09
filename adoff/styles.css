@@ -111,6 +111,10 @@ body {
     margin: 0
 }
 
+.slides .address ol {
+  padding-inline-start: 0px;
+}
+
 .slides .contacts p {
     margin: 0
 }
@@ -134,7 +138,7 @@ body {
 .container_desktop {
     display: flex;
     padding: 150px;
-    font-size: 1.3vw;
+    font-size: 1.4vw;
 }
 
 .container_mobile {
@@ -162,23 +166,20 @@ body {
     display: flex; 
   }
 
-  .slides .under_construction {
-    margin-top: 10px;
-  }
   .slides .title {
-    margin-top: 10px;
+    margin-top: 0px;
   }
   .slides .contacts {
     padding: 0;
   }
 
   .slides .address {
-    padding: 0;
+    padding: 0 0 0 15px;
     margin: 0;
   }
 
   .bottom-container ol {
-    padding-inline-start: 20px;
+    padding-inline-start: 15px;
   }
 
   .slides .socials {
@@ -214,6 +215,10 @@ body {
   }
   .container_mobile li {
     font-size: 2.4vw;
+  }
+
+  .arrow {
+    height: 25px;
   }
 
 }
