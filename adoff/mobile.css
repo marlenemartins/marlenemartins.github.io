@@ -5,3 +5,19 @@
     }
 
 }
+
+.slide-main .text {
+    padding-top: 20vh;
+    padding-left: 13vw;
+    padding-right: 14vw;
+}
+
+.container_desktop {
+    display: none;
+}
+
+.container_mobile {
+    display: flex;
+    margin: 0 auto;
+    padding-left: 10vw;
+}
