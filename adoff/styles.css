@@ -10,118 +10,49 @@ html, body {
 }
 
 @font-face {
-  font-family: "NeueHaasUnicaPro-Regular";
-  src: url(fonts/NeueHaasUnicaPro-Regular.otf);
+    font-family: "NeueHaasUnicaPro-Regular";
+    src: url(fonts/NeueHaasUnicaPro-Regular.otf);
+}
+
+ol  {
+    padding-left: 15px;
 }
 /* Slideshow container */
 .main {
-  position: relative;
-  margin: 0;
-  display: flex;
+    position: relative;
+    margin: 0;
+    display: flex;
 }
-
-/* Hide the images by default */
-.slides {
-  display: none;
+  
+  /* Hide the images by default */
+  .slides {
+    display: none;
 }
 
 /* Next & previous buttons */
 .prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-
-.slides .title {
-    font-size: 1.4vw;
+    cursor: pointer;
     position: absolute;
-    top: 0;
-    left: 15px;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
 }
 
-.slides .under_construction {
-    position: absolute;
-    top: 0;
-    right: 18px;
-    font-size: 1.4vw;
-    margin-top: 20px;
-}
-
-.slides .under_construction p {
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
-
-.slides .text {
-  display: flex;
-  align-content: center;
-  flex-wrap: wrap;
-}
-
-.bottom-container {
-  position: fixed;
-  bottom: 0;
-  display: flex;
-}
-
-/*
-.slides .contacts {
-    padding: 12px 12px;
-    align-self: flex-end;
-    display: flex;
-    bottom: 0;
-    left: 460px;
-    font-size: 1.4vw;
-}
-
-.slides .address {
-    padding: 12px 12px;
-    align-self: flex-end;
-    display: flex;
-    bottom: 0;
-    left: 15px;
-    font-size: 1.4vw;
-}
-
-.slides .socials {
-  padding: 12px 12px;
-  display: flex;
-  bottom: 0;
-  left: 15px;
-  font-size: 1.4vw;
-}
-  */
-
-.slides .socials a {
-  text-decoration: none;
-}
-
-.slides .address p {
-    margin: 0
-}
-
-.slides .address ol {
-  padding-inline-start: 0px;
-}
-
-.slides .contacts p {
-    margin: 0
+.arrow {
+    height: 50px;
 }
 
 .blackSlide{
@@ -140,108 +71,32 @@ html, body {
   color: black;
 }
 
+.slides .socials a {
+    text-decoration: none;
+}
+
+.slides .title {
+    padding-left: 15px;
+}
+
+.slides .under_construction {
+    padding-right: 15px;
+}
+
+.slide-main .text {
+    padding-top: 13vh;
+    padding-left: 4vw;
+    padding-right: 4vw;
+}
+
 .container_desktop {
     display: flex;
-    padding: 150px;
-    font-size: 1.4vw;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    width: 100vw;
+    height: 100vh;
 }
 
 .container_mobile {
-  display: none;
-}
-
-.arrow {
-  height: 50px;
-}
-
-.slide12 {
-  display: none;
-}
-
-
-@keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
-
-
-/* mobile version */
-@media screen and (max-width: 500px) {
-  * {
-    font-size: 3.0vw;
-  }
-
-  .bottom-container {
-    flex-wrap: wrap;
-    display: flex; 
-  }
-
-  .slides .title {
-    margin-top: 0px;
-  }
-  .slides .contacts {
-    padding: 0;
-  }
-
-  .slides .address {
-    padding: 0 0 0 15px;
-    margin: 0;
-  }
-
-  .bottom-container ol {
-    padding-inline-start: 15px;
-  }
-
-  .slides .socials {
-    padding: 0;
-  }
-
-  .slides .socials li {
-    display: inline-block;
-  }
-
-  .slides .socials li {
-    display: inline-block;
-    padding-right: 10px;
-  }
-
-  .slides .text {
-    padding:  100px 0 20px 68px;
-    font-size: 1vw;
-  }
-
-  .slides .text p {
-    width: 280px;
-  }
-  .container_desktop {
     display: none;
   }
-
-  .container_mobile {
-    display: flex;
-    padding-top: 60px;
-    justify-content: left;
-    margin: 0 auto;
-  }
-
-  .container_mobile .first_column_name {
-    padding-right: 40px;
-  }
-
-  .container_mobile .first_column_location {
-    padding-right: 40px;
-  }
-
-  .container_mobile ol {
-    padding-inline-start: 15px;
-  }
-
-  .container_mobile .middle {
-    padding-bottom: 30px;
-  }
-
-  .arrow {
-    height: 25px;
-  }
-
-}
