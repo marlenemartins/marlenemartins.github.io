@@ -34,3 +34,7 @@
 .slide-footer .contacts {
     min-width: 150px;
 }
+
+.slide-main {
+    height: 60vh;
+}
