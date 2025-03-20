@@ -1,9 +1,12 @@
 * {
     font-family: "NeueHaasUnicaPro-Regular";
     overflow: hidden;
+    font-size: 1.4vw;
 }
-body {
+html, body {
     margin: 0;
+    width: 100%;
+    height: 100%;
 }
 
 @font-face {
@@ -52,11 +55,6 @@ body {
     left: 15px;
 }
 
-.slides .text {
-    font-size: 16pt;
-    padding: 200px 220px 12px 220px;
-}
-
 .slides .under_construction {
     position: absolute;
     top: 0;
@@ -70,13 +68,19 @@ body {
   margin-bottom: 0px;
 }
 
+.slides .text {
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
 .bottom-container {
   position: fixed;
   bottom: 0;
   display: flex;
 }
 
-
+/*
 .slides .contacts {
     padding: 12px 12px;
     align-self: flex-end;
@@ -102,6 +106,7 @@ body {
   left: 15px;
   font-size: 1.4vw;
 }
+  */
 
 .slides .socials a {
   text-decoration: none;
@@ -158,6 +163,7 @@ body {
   from {opacity: .4}
   to {opacity: 1}
 }
+
 
 /* mobile version */
 @media screen and (max-width: 500px) {
