@@ -34,8 +34,15 @@
     }
     
     .first_column_year {
-        margin-left: 12vw;
+        margin-left: 10vw;
     }
 
+    .first_column_location {
+        margin-left: 3vw;
+    }
+
+    .middle {
+        margin-bottom: 12.5vh;
+    }
 }
 
