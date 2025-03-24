@@ -1,13 +1,13 @@
 /* mobile version */
 @media screen and (max-width: 500px) {
   * {
-        font-size: 3.0vw;
+        font-size: 3.5vw;
     }
 
 }
 
 .slide-main .text {
-    padding-top: 20vh;
+    padding-top: 2vh;
     padding-left: 13vw;
     padding-right: 14vw;
 }
@@ -19,7 +19,6 @@
 .container_mobile {
     display: flex;
     margin: 0 auto;
-    padding-left: 10vw;
 }
 
 .slide-footer {
@@ -37,4 +36,8 @@
 
 .slide-main {
     height: 60vh;
+}
+
+.first_column_year {
+    margin-left: 12vw;
 }
