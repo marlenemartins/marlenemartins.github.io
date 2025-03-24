@@ -2,6 +2,7 @@
     font-family: "NeueHaasUnicaPro-Regular";
     overflow: hidden;
     font-size: 1.4vw;
+    letter-spacing: -1px;
 }
 html, body {
     margin: 0;
