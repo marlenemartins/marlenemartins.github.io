@@ -5,6 +5,16 @@
         letter-spacing: -1px;
     }
 
+    .slide-content{
+        display: grid;
+        grid-template-rows: auto 1fr auto;
+        grid-template-areas: 
+        ".slide-header"
+        ".slide-main"
+        ".slide-footer";
+        min-height: 80%;
+        grid-template-columns: 100%;
+    }
     .slide-main .text {
         padding-top: 2vh;
         padding-left: 13vw;
