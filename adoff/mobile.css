@@ -54,5 +54,10 @@
     .middle {
         margin-bottom: 12.5vh;
     }
+
+    .socials li {
+        display: inline-block;
+        padding-right: 3vw;
+    }
 }
 
