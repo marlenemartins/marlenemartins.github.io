@@ -51,5 +51,9 @@
         display: inline-block;
         padding-right: 3vw;
     }
+
+    img {
+        height: 812px;
+    }
 }
 
