@@ -37,6 +37,7 @@
     
     .slide-footer .address {
         min-width: 230px;
+        max-height: 85px;
     }
     
     .slide-footer .contacts {
