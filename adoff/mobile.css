@@ -6,6 +6,10 @@
         letter-spacing: -1px;
     }
 
+    .slide-content{
+        height: 812px;
+    }
+
     .slide-main .text {
         padding-top: 2vh;
         padding-left: 13vw;
@@ -52,8 +56,5 @@
         padding-right: 3vw;
     }
 
-    img {
-        height: 812px;
-    }
 }
 
