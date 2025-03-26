@@ -85,7 +85,7 @@ ol  {
     padding-right: 15px;
 }
 
-.slide-main {
+.slide-main .text-content{
     display: flex;
     width: 100%;
     justify-content: center;
