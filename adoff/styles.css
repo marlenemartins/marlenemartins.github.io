@@ -92,6 +92,10 @@ ol  {
     align-items: center;
 }
 
+.slide-main {
+    height: 72vh;
+}
+
 .slide-main .text {
     padding-top: 13vh;
     padding-left: 4vw;
@@ -108,6 +112,10 @@ ol  {
 
 .container_mobile {
     display: none;
+}
+
+.projects {
+    padding-right: 6vw;
 }
 
 img {
