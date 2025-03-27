@@ -10,6 +10,10 @@
         height: 100vh;
     }
 
+    .slide-main {
+        height: 70vh;
+    }
+
     .slide-main .text {
         padding-top: 2vh;
         padding-left: 13vw;
@@ -70,6 +74,10 @@
         transition: 0.6s ease;
         border-radius: 0 3px 3px 0;
         user-select: none;
+    }
+
+    .projects {
+        padding-right: 0vw;
     }
 
 }
