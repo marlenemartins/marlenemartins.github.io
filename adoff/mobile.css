@@ -99,5 +99,8 @@
         line-height: 15px;
     }
 
+    .slide-content {
+        min-height: 0px;
+    }
 }
 
