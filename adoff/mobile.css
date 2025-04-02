@@ -6,6 +6,10 @@
         letter-spacing: -1px;
     }
 
+    li {
+        height: 15px;
+    }
+
     .slide-content {
         height: 100vh;
     }
@@ -15,9 +19,9 @@
     }
 
     .slide-main .text {
-        padding-top: 2vh;
-        padding-left: 13vw;
-        padding-right: 14vw;
+        padding-top: 6vh;
+        padding-left: 6vw;
+        padding-right: 6vw;
     }
     
     .container_desktop {
@@ -78,6 +82,22 @@
 
     .projects {
         padding-right: 0vw;
+    }
+
+    .arrow {
+        height: 30px;
+        width: 30px;
+    }
+    
+    .text-content {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: baseline;
+    }
+
+    .text p {
+        line-height: 15px;
     }
 
 }

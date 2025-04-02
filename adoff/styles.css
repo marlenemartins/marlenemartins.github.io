@@ -2,7 +2,6 @@
     font-family: "NeueHaasUnicaPro-Regular";
     overflow: hidden;
     font-size: 1.4vw;
-    letter-spacing: -1px;
 }
 html, body {
     margin: 0;
@@ -15,8 +14,17 @@ html, body {
     src: url(fonts/NeueHaasUnicaPro-Regular.otf);
 }
 
+li {
+    height: 22px;
+    line-height: 13px;
+}
+
 ol  {
     padding-left: 15px;
+}
+
+.slide-content {
+    min-height: 817px;
 }
 /* Slideshow container */
 .main {
@@ -92,19 +100,23 @@ ol  {
     align-items: center;
 }
 
+.text p {
+    line-height: 24px;
+}
+
 .slide-main {
     height: 72vh;
 }
 
 .slide-main .text {
     padding-top: 13vh;
-    padding-left: 4vw;
-    padding-right: 4vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
 }
 
 .container_desktop {
     display: flex;
-    padding-left: 4vw;
+    padding-left: 6vw;
     padding-right: 4vw;
     width: 100vw;
     height: 100vh;
@@ -115,7 +127,8 @@ ol  {
 }
 
 .projects {
-    padding-right: 6vw;
+    padding-right: 4vw;
+    padding-top: 10vh;
 }
 
 img {
