@@ -18,9 +18,9 @@
     }
 
     .slide-main .text {
-        padding-top: 6vh;
-        padding-left: 6vw;
-        padding-right: 6vw;
+        padding-top: 2vh;
+        padding-left: 4vw;
+        padding-right: 4vw;
     }
     
     .container_desktop {
@@ -101,6 +101,12 @@
 
     .slide-content {
         min-height: 0px;
+    }
+
+    .projects {
+        padding-right: 0;
+        padding-top: 0; 
+            
     }
 }
 
