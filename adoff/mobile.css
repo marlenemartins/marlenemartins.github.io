@@ -6,7 +6,8 @@
     }
 
     li {
-        height: 15px;
+        height: 25px;
+        line-height: 19px;
     }
 
     .slide-content {
@@ -96,7 +97,7 @@
     }
 
     .text p {
-        line-height: 15px;
+        line-height: 18px;
     }
 
     .slide-content {
