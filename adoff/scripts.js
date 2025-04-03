@@ -1,6 +1,17 @@
 let slideIndex = 1;
 showSlides(slideIndex);
 
+let imageHeight = document.getElementsByClassName("photo")[0].clientHeight;
+let contentDivs = document.body.getElementsByClassName("slide-content");
+const mediaQueryCondition = window.matchMedia("( min-width: 500px )");
+if (mediaQueryCondition.matches) {
+  const addCSS = (css) =>
+    (document.head.appendChild(document.createElement("style")).innerHTML =
+      css);
+
+  addCSS(".slide-content{ min-height: " + imageHeight + "px }");
+}
+
 // Next/previous controls
 function plusSlides(n) {
   showSlides((slideIndex += n));
