@@ -41,7 +41,6 @@ ol  {
     position: absolute;
     top: 50%;
     width: auto;
-    margin-top: -22px;
     color: white;
     font-weight: bold;
     font-size: 18px;
@@ -90,7 +89,6 @@ ol  {
 }
 
 .text-content{
-    display: flex;
     width: 100%;
     justify-content: center;
     align-items: center;
@@ -98,10 +96,6 @@ ol  {
 
 .text p {
     line-height: 32px;
-}
-
-.slide-main {
-    height: 72vh;
 }
 
 .slide-main .text {
