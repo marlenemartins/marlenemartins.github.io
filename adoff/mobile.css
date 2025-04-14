@@ -36,6 +36,10 @@
     .slide-footer {
         display: flex;
         flex-wrap: wrap;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
     }
     
     .slide-footer .address {
