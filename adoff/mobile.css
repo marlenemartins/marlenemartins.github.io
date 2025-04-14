@@ -73,9 +73,8 @@
         cursor: pointer;
         position: absolute;
         top: 50%;
-        width: 50px;
         margin-top: -22px;
-        padding: 16px;
+        padding: 8px;
         color: white;
         font-weight: bold;
         font-size: 18px;
